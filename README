@@ -1,0 +1,35 @@
+# FundCalc - Perfil Geotécnico Interativo com API
+
+Este é um aplicativo desktop em Python com interface gráfica (Tkinter) para construção de perfis geotécnicos de sondagem. Os dados inseridos podem ser enviados a uma API criada com FastAPI, permitindo salvar, recuperar e futuramente utilizar esses dados para cálculos de fundações rasas e profundas. Para as fundações rasas serão inicialmente utilizados os métodos de Terzaghi e para fundações profundas os métodos semi-empíricos Aoki-Velloso e Décourt-Quaresma
+
+## 🧱 Funcionalidades
+
+- Inserção interativa de camadas com:
+  - Espessura
+  - Peso específico (γ)
+  - NSPT
+  - Descrição do solo
+- Visualização gráfica automática do perfil geotécnico.
+- Edição, duplicação e exclusão de camadas.
+- Salvamento dos dados via API (FastAPI).
+- Armazenamento em JSON local (`camadas_db.json`).
+- Preparado para cálculos futuros de fundações.
+
+---
+
+## 🔧 Tecnologias Usadas
+
+- Python 3.x
+- Tkinter (interface gráfica)
+- FastAPI (backend)
+- Requests (comunicação HTTP)
+- JSON (armazenamento local)
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### 1. Clone este repositório
+```bash
+git clone https://github.com/VictorPuca/calcsap.git 
+cd calcsap
