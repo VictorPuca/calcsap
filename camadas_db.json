@@ -1,14 +1,23 @@
-[
-  {
-    "Espessura": 1.0,
-    "Peso": 15.0,
-    "NSPT": 6,
-    "Descrição": "Areia"
-  },
-  {
-    "Espessura": 1.0,
-    "Peso": 15.0,
-    "NSPT": 6,
-    "Descrição": "Argila"
-  }
-]
+{
+  "camadas": [
+    {
+      "Espessura": 1.0,
+      "Peso": 1.7,
+      "NSPT": 3,
+      "Descrição": "Areia"
+    },
+    {
+      "Espessura": 1.0,
+      "Peso": 2.7,
+      "NSPT": 3,
+      "Descrição": "Areia"
+    },
+    {
+      "Espessura": 1.0,
+      "Peso": 2.7,
+      "NSPT": 3,
+      "Descrição": "Areia"
+    }
+  ],
+  "nivel_agua": 0.5
+}
